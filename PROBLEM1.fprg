@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM1"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 02:55:49 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMjo0OTo0NiDZhTsxMzM1OQ=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMjo1NTo0OSDZhTsxOzEzNDY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;BASHIR&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

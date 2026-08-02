@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM8"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 05:25:09 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMzo1ODoxOSDZhTsxMzM2MA=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswNToyNTowOSDZhTsxOzEzNDYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mark" type="Integer" array="False" size=""/>
+            <declare name="result" type="Boolean" array="False" size=""/>
+            <input variable="mark"/>
+            <assign variable="result" expression="mark &gt;= 50"/>
+            <if expression="result == true">
+                <then>
+                    <output expression="&quot;PASS&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Fail&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

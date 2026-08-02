@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM4"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 03:29:38 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMzowNzo0NiDZhTsxMzM1NA=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMzoyOTozOCDZhTsxOzEzNDY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="driveLicense, result" type="Boolean" array="False" size=""/>
+            <input variable="age"/>
+            <input variable="driveLicense"/>
+            <assign variable="result" expression="(age &gt; 21 &amp;&amp; driveLicense == true)"/>
+            <if expression="result = true">
+                <then>
+                    <output expression="&quot;Hired&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Rejected&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

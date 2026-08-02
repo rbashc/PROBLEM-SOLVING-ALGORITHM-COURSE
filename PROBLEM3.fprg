@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM3"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 03:07:33 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMjo1OTozMiDZhTsxMzM1NQ=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMzowNzozMyDZhTsxOzEzNDU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, res" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <assign variable="res" expression="number % 2"/>
+            <if expression="res == 0">
+                <then>
+                    <output expression="&quot;EVEN&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ODD&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

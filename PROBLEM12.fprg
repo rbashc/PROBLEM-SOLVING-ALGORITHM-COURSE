@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM12"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 08:33:45 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswODoyNzo1MyDZhTsxMzM1OQ=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswODozMzo0NSDZhTsxOzEzNDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number1, number2" type="Integer" array="False" size=""/>
+            <input variable="number1"/>
+            <input variable="number2"/>
+            <if expression="number1 &gt;= number2">
+                <then>
+                    <output expression="number1" newline="True"/>
+                </then>
+                <else>
+                    <output expression="number2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

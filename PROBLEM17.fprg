@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM17"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-01 07:26:50 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wOC0wMTswNzoyMDo0MyDZhTsxMzM0OA=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wOC0wMTswNzoyNjo1MCDZhTsxOzEzNDYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, H, AREA" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="H"/>
+            <assign variable="AREA" expression="A / 2 * H"/>
+            <output expression="AREA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

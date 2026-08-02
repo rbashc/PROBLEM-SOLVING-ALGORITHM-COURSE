@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM9"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 05:35:40 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswNToyNTo1NyDZhTsxMzM1OA=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswNTozNTo0MCDZhTsxOzEzNDU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number1, number2, number3, sum" type="Integer" array="False" size=""/>
+            <input variable="number1"/>
+            <input variable="number2"/>
+            <input variable="number3"/>
+            <assign variable="sum" expression="number1 + number2 + number3"/>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

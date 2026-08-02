@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM6"/>
+        <attribute name="authors" value="&#1575;&#1576;&#1608; &#1581;&#1587;&#1606;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-31 03:47:13 &#1605;"/>
+        <attribute name="created" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMzo0MDozMCDZhTsxMzM0NA=="/>
+        <attribute name="edited" value="2KfYqNmIINit2LPZhjtMQVBUT1AtOENFTUJUTTM7MjAyNi0wNy0zMTswMzo0NzoxMyDZhTsxOzEzNDYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="firstName, lastName, fullName" type="String" array="False" size=""/>
+            <input variable="firstName"/>
+            <input variable="lastName"/>
+            <assign variable="fullName" expression="firstName &amp; &quot; &quot; &amp; lastName"/>
+            <output expression="fullName" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
