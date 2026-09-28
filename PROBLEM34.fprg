@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM34"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-17 09:17:29 &#1605;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MDg6NDA6MTYg2YU7NDMxNg=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MDk6MTc6Mjkg2YU7MTs0NDMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="commissionPercentage" type="Integer" array="False" size=""/>
+            <declare name="x, y" type="Real" array="False" size=""/>
+            <input variable="commissionPercentage"/>
+            <if expression="commissionPercentage &gt; 1000000">
+                <then>
+                    <assign variable="x" expression="0.01"/>
+                </then>
+                <else>
+                    <if expression="commissionPercentage &gt; 500000">
+                        <then>
+                            <assign variable="x" expression="0.02"/>
+                        </then>
+                        <else>
+                            <if expression="commissionPercentage &gt; 100000">
+                                <then>
+                                    <assign variable="x" expression="0.03"/>
+                                </then>
+                                <else>
+                                    <if expression="commissionPercentage &gt; 50000">
+                                        <then>
+                                            <assign variable="x" expression="0.05"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="x" expression="0"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="y" expression="commissionPercentage * x"/>
+            <output expression="y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

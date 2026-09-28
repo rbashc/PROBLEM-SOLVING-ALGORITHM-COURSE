@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM35"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-17 09:59:11 &#1605;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MDk6MTc6NDAg2YU7NDMxOA=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MDk6NTk6MTEg2YU7MTs0NDMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="P, N, Di, Q, Do, pt, dt" type="Real" array="False" size=""/>
+            <input variable="P"/>
+            <input variable="N"/>
+            <input variable="Di"/>
+            <input variable="Q"/>
+            <input variable="Do"/>
+            <assign variable="pt" expression="P * 1 + N * 5 + Di * 10 + Q * 25 + Do * 100"/>
+            <assign variable="dt" expression="pt / 100"/>
+            <output expression="pt" newline="True"/>
+            <output expression="dt" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
