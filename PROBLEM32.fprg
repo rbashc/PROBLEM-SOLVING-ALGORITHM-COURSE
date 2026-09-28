@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM32"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-17 12:37:22 &#1589;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MTI6MjU6Mzgg2LU7NDMwMg=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MTI6Mzc6MjIg2LU7MTs0NDA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number, m, n" type="Integer" array="False" size=""/>
+            <input variable="Number"/>
+            <input variable="m"/>
+            <assign variable="m" expression="m - 1"/>
+            <assign variable="n" expression="Number"/>
+            <while expression="m &gt; 0">
+                <assign variable="Number" expression="Number * n"/>
+                <assign variable="m" expression="m - 1"/>
+            </while>
+            <output expression="Number" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM33"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-17 04:30:16 &#1605;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MDM6NTI6MjIg2YU7NDMxMQ=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTc7MDQ6MzA6MTYg2YU7MTs0NDE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <if expression="number &gt;= 0 &amp;&amp; number &lt;= 100">
+                <then>
+                    <if expression="number &gt;= 90">
+                        <then>
+                            <output expression="&quot;A&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="number &gt;= 80">
+                                <then>
+                                    <output expression="&quot;B&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="number &gt;= 70">
+                                        <then>
+                                            <output expression="&quot;C&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="number &gt;= 60">
+                                                <then>
+                                                    <output expression="&quot;D&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="number &gt;= 50">
+                                                        <then>
+                                                            <output expression="&quot;E&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot;F&quot;" newline="True"/>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Error, Please Try Again&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

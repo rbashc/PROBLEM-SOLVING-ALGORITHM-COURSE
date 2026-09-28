@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM25"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-15 05:57:24 &#1605;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDU6MjI6NDQg2YU7NDMxMg=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDU6NTc6MjQg2YU7MTs0NDI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Age" type="Integer" array="False" size=""/>
+            <input variable="Age"/>
+            <while expression="Age &lt; 18 || Age &gt; 45">
+                <output expression="&quot;Invalid Age, try again&quot;" newline="True"/>
+                <input variable="Age"/>
+            </while>
+            <output expression="&quot;Valid Age&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

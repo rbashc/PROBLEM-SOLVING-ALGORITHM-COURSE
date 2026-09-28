@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM26"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-15 06:10:13 &#1605;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDU6NTc6Mjgg2YU7NDMyMg=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDY6MTA6MTMg2YU7MTs0NDE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter, i" type="Integer" array="False" size=""/>
+            <input variable="i"/>
+            <assign variable="counter" expression="0"/>
+            <while expression="counter &lt; i">
+                <assign variable="counter" expression="counter + 1"/>
+                <output expression="counter" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

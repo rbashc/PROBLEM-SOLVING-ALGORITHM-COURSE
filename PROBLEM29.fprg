@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PROBLEM29"/>
+        <attribute name="authors" value="samia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1448-04-15 08:13:40 &#1605;"/>
+        <attribute name="created" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDg6MDc6NDIg2YU7NDMxNg=="/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDg6MDc6NDUg2YU7MTtzYW1pYTtERVNLVE9QLTNQVUI1VjE7MTQ0OC0wNC0xNTswNjozNToyNyDZhTtQUk9CTEVNMjguZnByZzs5OTc1"/>
+        <attribute name="edited" value="c2FtaWE7REVTS1RPUC0zUFVCNVYxOzE0NDgtMDQtMTU7MDg6MTM6NDAg2YU7MTs0NDE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, counter, sum" type="Integer" array="False" size=""/>
+            <input variable="i"/>
+            <assign variable="sum" expression="0"/>
+            <assign variable="counter" expression="0"/>
+            <for variable="counter" start="0" end="i" direction="inc" step="1">
+                <if expression="counter % 2 == 0">
+                    <then>
+                        <assign variable="sum" expression="sum + counter"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
